@@ -1,0 +1,73 @@
+extends ./layout.jade
+
+block content
+  .row.sublime-text
+    h1.text-center Recommended Text Editors
+    .col-md-10.col-md-offset-1
+      h2.text-center.text-warning Sublime Text 3
+      img.img-responsive(src="img/sublime-screenshot.png", alt="sublime text editor screenshot")
+    .col-sm-12
+      h3.text-center Features that You'll Love
+    .row
+      .col-md-6
+        h4 Multiple Cursors
+        img.gfyitem(data-id='AptInsignificantArcticduck')
+        p
+          | {cmd}+{left click} on Mac or [ctrl]+[left click] on PC to place place multiple cursors and start editing. You'll find its usefulness in many situations when coding.
+      .col-md-6
+        h4 Quickly Select Identical Items
+        img.gfyitem(data-id='SourTenderBluefintuna')
+        p
+          | Press {cmd}+{d} or [ctrl]+[d] a few times to select identical strings, making multiple cursor edit even easier. You'll miss this feature a lot when unavailable on another editor.
+    .row
+      .col-md-6
+        h4 Command Palette
+        img.gfyitem(data-id='UnselfishEcstaticChinesecrocodilelizard')
+        p
+          | {cmd}+{shift}+{P} on Mac or [ctrl]+[shift]+[P] on PC to bring up command palette and start typing command. The demo shows setting syntax by just typing 'set php', which selects 'Set Syntax: PHP' and hitting enter sets the syntax for the file to PHP with proper syntax highlight. There are many other command available, one other that is commonly used is 'install package' that I'll show in the plugins section below.
+      .col-md-6
+        h4 Goto Anything Command
+        img.gfyitem(data-id='SadSandyCarpenterant')
+        p
+          | {cmd}+{p} or [ctrl]+[p] to bring up the Goto command and start typing file name and you can quickly switch between files in your working folder. Your hands don't even need to leave your keyboard when you're coding.
+    .col-md-12
+      h3.text-center
+        a.btn.btn-warning.btn-lg(href='//www.sublimetext.com/') Learn more
+      .col-md-8.col-md-offset-2
+        .panel.panel-primary
+          .panel-body
+            p
+              | As you can see these are very powerful features that simple text editors does not include. For more detail explanations, you can check out the sublime text 
+              a(href='//www.sublimetext.com/') home page
+              |  as well as its 
+              a(href='//www.sublimetext.com/support') support page
+              |  and refer to its robust documentations.
+  hr
+  .row.brackets
+    .col-md-10.col-md-offset-1
+      h2.text-center.text-info Brackets
+      img(src='img/brackets-screenshot.png', alt='brackets text editor screenshot')
+    .col-sm-12
+      h3.text-center Features that You'll Love
+    .row
+      .col-md-6
+        h4 LIVE PREVIEW
+        img.gfyitem(data-id='InsistentReasonableAsp')
+        p
+          | Live preview is the sole reason you should use Brackets. It makes seeing the appearance of the website so much easier; also a great tool for beginner understanding how html and css work together by seeing the code changing the view live along with element highlight. To activate, click on the lightning-bolt icon on the top-right.
+      .col-md-6
+        h4 Quick Edit
+        img.gfyitem(data-id='SarcasticWeirdGuppy')
+        p
+          | Another unique feature from Brackets is quick edit. Right click on a html tag or a class / id, or use keyboard shortcut {cmd}+{E} or [ctrl]+[E] to quickly edit CSS property even tho they're in the linked external CSS file.
+    .col-md-12
+      h3.text-center
+        a.btn.btn-info.btn-lg(href='http://brackets.io/') Learn more
+      .col-md-8.col-md-offset-2
+        .panel.panel-primary
+          .panel-body
+            p
+              | Brackets is an open source project developed by Adobe, the company that makes Photoshop. The features demostrated above are the two that stand out the most from the rest of the editors, and later down the road there will be full integration with Photoshop design file that generate CSS code hints. Again, to learn more, check out their 
+              a(href='http://brackets.io/') official page
+              | .
+    
